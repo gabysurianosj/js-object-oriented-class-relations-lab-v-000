@@ -3,9 +3,11 @@ let store = {
   passengers: [],
   trips: []
 }
- let driverId = 0;
+
+let driverId = 0;
 let passengerId = 0;
 let tripId = 0;
+
  class Driver {
   constructor(name) {
     this.name = name;
@@ -27,6 +29,7 @@ let tripId = 0;
     return passengerList;
   }
 }
+
  class Passenger {
   constructor(name) {
     this.name = name;
