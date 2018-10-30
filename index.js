@@ -51,6 +51,7 @@ let tripId = 0;
     return driverList;
   }
 }
+
  class Trip {
   constructor(driver, passenger) {
     if (driver) {
